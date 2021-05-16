@@ -32,7 +32,7 @@ module.exports = {
 
   plugins: [
     new ModuleFederationPlugin({
-      name: 'MicroFrontEnd3',
+      name: 'microFrontEnd3',
       filename: 'remoteEntry.js',
       exposes: {
         './MicroFrontEnd3Index': './src/index',
